@@ -77,7 +77,7 @@ function WelcomeModal({ onClose }: { onClose: () => void }) {
         </div>
 
         <div className="space-y-3">
-          <a href="https://store.line.me/stickershop/author/5784724/ja" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-[#06C755] hover:bg-[#05b34c] text-white font-bold transition-all hover:scale-[1.02] shadow-lg shadow-[#06C755]/20">
+          <a href="https://store.line.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-[#06C755] hover:bg-[#05b34c] text-white font-bold transition-all hover:scale-[1.02] shadow-lg shadow-[#06C755]/20">
             <MessageCircle size={20} />
             ドラとユイの公式LINEスタンプ発売中！
           </a>
