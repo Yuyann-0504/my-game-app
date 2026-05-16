@@ -143,7 +143,7 @@ function ShareSection({ idea }: { idea: GameIdea }) {
   const handleShare = (platform: string) => {
     trackShareClick(platform, idea.genre, idea.theme, idea.gimmick);
     const text = `ドラとユイが新しいゲームのアイデアをくれたよ！\n\n【ゲームアイデア】\nジャンル: ${idea.genre}\nテーマ: ${idea.theme}\nギミック: ${idea.gimmick}\n\n#ゲーム開発 #ドラユイアプリ #indie`;
-    const url = "https://game-appss.netlify.app/";
+    const url = "https://begginner-game-idea.netlify.app/";
 
     const shareUrls: Record<string, string> = {
       twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
