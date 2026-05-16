@@ -201,7 +201,7 @@ function IdeaCard({ idea }: { idea: GameIdea }) {
             「『{idea.theme}』のテーマと上手く合わせるのがコツですね！」
           </p>
         </div>
-        <a href="https://store.line.me/" target="_blank" rel="noopener noreferrer" className="shrink-0 flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-3 bg-[#06C755]/20 hover:bg-[#06C755]/30 border border-[#06C755]/50 text-[#06C755] rounded-xl text-sm font-bold transition-all hover:scale-105">
+        <a href="https://store.line.me/stickershop/author/5784724/ja" target="_blank" rel="noopener noreferrer" className="shrink-0 flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-3 bg-[#06C755]/20 hover:bg-[#06C755]/30 border border-[#06C755]/50 text-[#06C755] rounded-xl text-sm font-bold transition-all hover:scale-105">
           <MessageCircle size={18} />
           LINEスタンプ
         </a>
